@@ -1,7 +1,7 @@
 The structure of the repository is as follows.
 The hg19 genome data (chr*.fa.gz) was downloaded from the UCSC genome browser (https://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/) and stored under make_Noverlap_fragments/hg19/ with the unzipped version (chr*.fa).
 
-Supplementary_materials/
+supplementary_materials/
 	├ PRDM9_sm.pdf: Hyperparameter setting and metrics of other CNN-training methods are shown.
 	└ motifs.xlsx: PWMs extracted from the trained EBCN are included.
 
