@@ -36,8 +36,8 @@ CNN_dir/
 
 PWM_dir/
 ├ global_comp_each_testdata_calc_at_26/
-│	├ judge_optimal_PWM_num_with_AUC.py: Output AUC to determine how many PWMs should be used.
-│	├ integrate_scores_and_output_jsons.py: Integrate the loglikelihood ratio score to the 100 bp test fragment calculated for each PWM.
+│	├ judge_optimal_PWM_num_with_AUC_from_H1toH17.py: Output AUC to determine how many PWMs should be used.
+│	├ integrate_scores_and_output_jsons.py: Summarize the loglikelihood ratio score to the 100 bp test fragment calculated for each PWM.
 │	├ PWM_AUROC.py: Draw the ROC and save the information.
 │	└ calculate_loglikelihood/
 │		└ automatically_scan_test_data.sh: Perform scoring on test data.
@@ -64,7 +64,7 @@ other_metrics_new/
 
 motif_finding/
 ├ conv_each_filter.py: Perform scoring on random DNA sequences using filters in the convolutional layer of a trained CNN.
-├ make_PWM.py: CNN: Create PWMs based on convolutional scores.
+├ make_PWM.py: Create PWMs based on convolutional scores.
 ├ AUC_for_each_motif.py: The AUC is output from the loglikelihood-score to the test data by each PWM.
 ├ logo_make.py: Create a sequence logo from PWM.
 ├ global_comp_each_motifs_from_26
